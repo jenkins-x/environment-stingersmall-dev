@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRALevUlmQX3xqics4c/6s870wDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkYmExYzRmMzMtNTRhMi00ZmUwLWJmZWQtMTEzNjlmZjNiMDRm
+    MB4XDTE5MDUwODA5NDYwMloXDTI0MDUwNjEwNDYwMlowLzEtMCsGA1UEAxMkYmEx
+    YzRmMzMtNTRhMi00ZmUwLWJmZWQtMTEzNjlmZjNiMDRmMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEAx/m4DHWooCdWGNbLjCBzcW71fRZBS4hinT9KLSxs
+    MsB0wmnAHXcKOiIYePhXszHC99brd2cxsI/ZP51teQ6G9VwcdIIZouUz3JzqCViF
+    NT/emqV5VO/cCBISjdJ9qCWGe5YntzTVvfbQgberZBFaz1afREuRNK7p5TTVj9x5
+    0n7sIeBpGvsnXcsvxHwKtWCown0be68DVQyyer0j42i0p0JGZ0nooNKMySvMfpd1
+    WI/tpJfN7MDA297iXX5h3iSeS7Nnb+Pw47xusw5MHM/UdwYAjtAi2gCeOQVhHJt7
+    J2J4jLjhpy5G8Q52LL3CJ8+EelvcaKdV1jiGQufa2ThM0wIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    sMzn9s/6XlxLDUgE6MYkcmhFAAn8tseWUo0f1Rod/p6fbRUbhH6VQEj229VTyg8R
+    zIpBHT6ZRiGSbYKCOyAnF0bDZ9YRYlxCZ5CCj/Ceg9QoHGWhxQINKaIcn7dROtaD
+    +j6peXYvEnhODHJ8QHpO2xpKLrNdprMrdQmpiAUORifZnvv3QpMkuNT+gG0yWwFE
+    U1x+vFqK/BD8H+WNIJeRh093Ka5l1mhIku7Wp8IbE0IYzKfMHAafs+Qa5hKtfyYJ
+    fwGWv0ViS/fyHj74c/JbG5YkiGc5UkgWFCJCVopDv4FIx/3mVAdOcI79QusXwKST
+    BMaRDsaq5Gi1ETycvhDyzQ==
+    -----END CERTIFICATE-----
+  clusterName: cosmin-vault
+  jx-install-version: 2.0.0-dev+19fdf77a6
+  kubeProvider: gke
+  projectID: jx-development
+  region: ""
+  secretsLocation: vault
+  server: https://34.76.228.110
+  systemVaultName: jx-vault-cosmin-vault
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config

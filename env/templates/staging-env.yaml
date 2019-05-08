@@ -1,0 +1,18 @@
+apiVersion: jenkins.io/v1
+kind: Environment
+metadata:
+  creationTimestamp: null
+  name: staging
+spec:
+  kind: Permanent
+  label: Staging
+  namespace: jx-staging
+  order: 100
+  previewGitInfo:
+    user: {}
+  promotionStrategy: Auto
+  source:
+    ref: master
+    url: https://github.com/jenkins-x/environment-stingersmall-staging.git
+  teamSettings: {}
+status: {}

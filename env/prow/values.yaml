@@ -1,0 +1,10 @@
+auth:
+  git:
+    username: ccojocar
+build:
+  enabled: false
+buildnum:
+  enabled: false
+pipelinerunner:
+  enabled: "true"
+tillerNamespace: ""

@@ -1,0 +1,24 @@
+dependencies:
+- name: jenkins-x-platform
+  repository: http://chartmuseum.jenkins-x.io
+  version: 2.0.191
+- name: jenkins-x-platform
+  repository: http://chartmuseum.jenkins-x.io
+  version: 2.0.191
+- name: jenkins-x-platform
+  repository: http://chartmuseum.jenkins-x.io
+  version: 2.0.191
+- name: jenkins-x-platform
+  repository: http://chartmuseum.jenkins-x.io
+  version: 2.0.191
+- alias: tekton
+  name: tekton
+  repository: http://chartmuseum.jenkins-x.io
+  version: 0.0.37
+- alias: prow
+  name: prow
+  repository: http://chartmuseum.jenkins-x.io
+  version: 0.0.578
+- name: jenkins-x-platform
+  repository: http://chartmuseum.jenkins-x.io
+  version: 2.0.191
